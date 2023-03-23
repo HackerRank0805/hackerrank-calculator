@@ -1,0 +1,174 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.calculator-container {
+    max-width: 322px;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background: #e6e6e6;
+    border: 1px solid #555;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 32px;
+
+}
+
+.title-label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 32px;
+    padding: 0 12px;
+    font-size: 0.8rem;
+}
+
+.title-btn {
+    display: flex;
+    align-items: center;
+}
+
+.span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 32px;
+}
+
+.span:hover {
+    background: #cfcfcf;
+}
+
+
+.close:hover {
+    background: #e81123;
+}
+
+.span>img {
+    width: 12px;
+}
+
+h5 {
+    font-weight: 300;
+    padding: 0;
+    margin: 0 0 0 10px !important;
+}
+
+.menu-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-wrap {
+    display: flex;
+    align-items: center;
+}
+
+.hamburger {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.history {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hamburger:hover {
+    background: #cfcfcf;
+}
+
+.result {
+    min-height: 100px;
+    display: flex;
+    align-items: bottom;
+    justify-content: center;
+}
+
+input {
+    width: 94%;
+    margin: auto;
+    font-size: 2.8rem !important;
+    border: 0;
+    text-align: right;
+    font-weight: 500;
+    background-color: #e6e6e6;
+    outline-width: 0;
+}
+
+input::placeholder {
+    color: #000;
+}
+
+.memory-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.memory-buttons>span {
+    font-size: 0.8rem;
+    font-weight: 600;
+    padding: 0 0 10px 0;
+}
+
+.main-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2px;
+    margin-bottom: 4px;
+}
+
+.main-buttons>span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: default;
+    width: 77px;
+    height: 47px;
+    background: #fff;
+}
+
+.main-buttons>span:hover {
+    background-color: #e6e6e6;
+}
+
+.main-buttons>.number {
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.main-buttons>.arithmetic {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.main-buttons>.arithmetic:hover {
+    background-color: #ef6950;
+    color: #fff;
+}
+
+.svg {
+    width: 15px;
+}
